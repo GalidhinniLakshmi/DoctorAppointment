@@ -1,0 +1,15 @@
+{
+  "name": "doctor-appointment-system",
+  "version": "1.0.0",
+  "description": "Doctor Appiontment Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Lakshmi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

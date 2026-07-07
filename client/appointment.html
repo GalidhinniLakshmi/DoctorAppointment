@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Appointment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>🏥 MediCare</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="doctors.html">Doctors</a></li>
+<li><a href="appointment.html">Appointment</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="services">
+
+<h2>Book an Appointment</h2>
+
+<form id="appointmentForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="doctor" required>
+<option value="">Select Doctor</option>
+<option>Dr. Rahul Sharma</option>
+<option>Dr. Priya Singh</option>
+<option>Dr. Arjun Patel</option>
+<option>Dr. Sneha Reddy</option>
+<option>Dr. Vikram Rao</option>
+<option>Dr. Anjali Mehta</option>
+</select>
+
+<input type="date" id="date" required>
+
+<input type="time" id="time" required>
+
+<button class="btn" type="submit">Book Appointment</button>
+
+</form>
+
+<p id="message"></p>
+
+</section>
+
+<footer>
+<p>© 2026 Doctor Appointment Booking System | Developed by Kavya Kalluri</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
